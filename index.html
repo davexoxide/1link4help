@@ -13,9 +13,9 @@ body { margin: 0px; background: #ddd; }
 
 .background {
 	width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 	background-color: yellow;
 }
 
@@ -27,7 +27,7 @@ It has the problem that the content will  will be cut on top if the window is sm
 
 .content {
 	max-width: 400px;
-    height: 600px;
+  height: 700px;
 	background-color: #FFF;
 
 	position:absolute;
@@ -59,7 +59,8 @@ It has the problem that the content will  will be cut on top if the window is sm
 
 h1 {
 	font-family: "ZapfinoForteLTOne", serif;
-	font-size: 5em;
+	font-size: 3em;
+  margin: 10px;
 }
 
 h2:before {
@@ -72,31 +73,25 @@ h2:before {
   background-repeat:no-repeat;
 }
 
-h1 {
-	margin-bottom: 40px;
-	margin-top: 70px;
-}
-
 .pic1 {
-	width: 50%;
-	height: 270px;
-	float: left;
+	width: 400px;
+	height: 170px;
 	display: inline-block;
 	background: green;
-	background: url('images/chair.jpg') -180px 0;
+	background: url('images/chair.jpg');
 	background-size: 500px;
 }
 .pic2 {
-	width: 50%;
-	height: 270px;
+	width: 400px;
+	height: 170px;
 	display: inline-block;
-	background: url('images/couple2.jpg') -23px -40px;
+	background: url('images/couple2.jpg') 0 -160px no-repeat;
+  background-size: 400px;
 }
 
 .links {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 60px;
+	margin: 10px;
 }
 
 .btn {
@@ -114,7 +109,6 @@ h1 {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin: 5px 35px;
   width: 230px;
 }
 
@@ -160,13 +154,16 @@ h2 span {
 	<div class="content">
 		<div class="header">
 			<span class="pic1">&nbsp;</span>
-			<span class="pic2">&nbsp;</span>
+      <h1>1Link4Care</h1>
 			<div class="links">
 				<a class="btn care" href="http://www.1link4care.com">Under 65</a>
-				<a class="btn senior" href="http://www.1link4seniorcare.com">Over 65</a>
 			</div>
-			<!--<h1>1Link4Help</h1>-->
 			<h2>We help families find solutions.<span>&reg;</span></h2>
+      <span class="pic2">&nbsp;</span>
+      <h1>1Link4SeniorCare</h1>
+      <div class="links">
+        <a class="btn senior" href="http://www.1link4seniorcare.com">Over 65</a>
+      </div>
 		<div class="copyright">copyright © 2014 - 1 Link 4 Senior Care, Inc - All Rights Reserved</div>
 	</div>
  </div>
