@@ -19,7 +19,7 @@ body { margin: 0px; background: #ddd; }
 	background-color: yellow;
 }
 
-/* 
+/*
 http://jsfiddle.net/6KaMy/1/
 is there a better way than the absolute positioning and negative margin.
 It has the problem that the content will  will be cut on top if the window is smalller than the content.
@@ -29,12 +29,12 @@ It has the problem that the content will  will be cut on top if the window is sm
 	max-width: 400px;
     height: 600px;
 	background-color: #FFF;
-	
+
 	position:absolute;
     left:0; right:0;
     top:0; bottom:0;
 	margin:auto;
-	
+
 	max-height:100%;
 	overflow:auto;
 
@@ -57,19 +57,19 @@ It has the problem that the content will  will be cut on top if the window is sm
          url('fonts/zapfinofortelt-one.svg#ZapfinoForteLTOne') format('svg');
 }
 
-h1 { 
-	font-family: "ZapfinoForteLTOne", serif; 
+h1 {
+	font-family: "ZapfinoForteLTOne", serif;
 	font-size: 5em;
 }
 
-h1:before {
+h2:before {
 	background: url('images/logo.png');
-	width: 49px;
-	height: 45px;
+	width: 39px;
+	height: 35px;
 	display: inline-block;
 	content: ' ';
-	background-size: 49px 45px;
-    background-repeat:no-repeat;
+	background-size: 39px 35px;
+  background-repeat:no-repeat;
 }
 
 h1 {
@@ -165,7 +165,7 @@ h2 span {
 				<a class="btn care" href="http://www.1link4care.com">Under 65</a>
 				<a class="btn senior" href="http://www.1link4seniorcare.com">Over 65</a>
 			</div>
-			<h1>1Link4Help</h1>
+			<!--<h1>1Link4Help</h1>-->
 			<h2>We help families find solutions.<span>&reg;</span></h2>
 		<div class="copyright">copyright © 2014 - 1 Link 4 Senior Care, Inc - All Rights Reserved</div>
 	</div>
