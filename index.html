@@ -27,7 +27,7 @@ It has the problem that the content will  will be cut on top if the window is sm
 
 .content {
 	max-width: 400px;
-  height: 700px;
+  height: 600px;
 	background-color: #FFF;
 
 	position:absolute;
@@ -61,6 +61,12 @@ h1 {
 	font-family: "ZapfinoForteLTOne", serif;
 	font-size: 3em;
   margin: 10px;
+  float: left;
+  color: #000;
+}
+
+h2 {
+  clear: both;
 }
 
 h2:before {
@@ -109,7 +115,9 @@ h2:before {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  width: 230px;
+  width: 90px;
+  position: absolute;
+  right: 10px;
 }
 
 h2 span {
@@ -143,7 +151,8 @@ h2 span {
 
 .copyright {
 	font-size: .8em;
-	margin-top: 30px;
+	margin-top: 10px;
+  clear: both;
 }
 -->
 </style>
@@ -153,17 +162,17 @@ h2 span {
 <div class="background">
 	<div class="content">
 		<div class="header">
-			<span class="pic1">&nbsp;</span>
-      <h1>1Link4Care</h1>
+			<a href="http://www.1link4care.com" title="1 Link 4 Care"><span class="pic1">&nbsp;</span></a>
+      <a href="http://www.1link4care.com" title="1 Link 4 Care"><h1>1Link4Care</h1></a>
 			<div class="links">
-				<a class="btn care" href="http://www.1link4care.com">Under 65</a>
+				<a class="btn care" href="http://www.1link4care.com" title="1 Link 4 Care">Under 65</a>
 			</div>
-			<h2>We help families find solutions.<span>&reg;</span></h2>
-      <span class="pic2">&nbsp;</span>
-      <h1>1Link4SeniorCare</h1>
+      <a href="http://www.1link4seniorcare.com" title="1 Link 4 Senior Care"><span class="pic2">&nbsp;</span></a>
+      <a href="http://www.1link4seniorcare.com" title="1 Link 4 Senior Care"><h1>1Link4SeniorCare</h1></a>
       <div class="links">
-        <a class="btn senior" href="http://www.1link4seniorcare.com">Over 65</a>
+        <a class="btn senior" href="http://www.1link4seniorcare.com" title="1 Link 4 Senior Care">Over 65</a>
       </div>
+      <h2>We help families find solutions.<span>&reg;</span></h2>
 		<div class="copyright">copyright © 2014 - 1 Link 4 Senior Care, Inc - All Rights Reserved</div>
 	</div>
  </div>
