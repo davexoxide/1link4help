@@ -203,6 +203,12 @@ h2 span {
 		<div class="copyright">copyright © 2014 - 1 Link 4 Senior Care, Inc - All Rights Reserved</div>
 	</div>
  </div>
-
+<script> 
+if (/*@cc_on!@*/false) { 
+    var headHTML = document.getElementsByTagName(‘head’)[0].innerHTML; 
+    headHTML    += ‘<link type=”text/css” rel=”stylesheet” href=”all-ie-only.css”>’; 
+    document.getElementsByTagName(‘head’)[0].innerHTML = headHTML; 
+} 
+</script>
 </body>
 </html>
